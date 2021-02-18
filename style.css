@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background: #19a1ae;
+}
+
+/* Profile */
+.profile-container {
+  height: 374px;
+  margin-top: 30vh;
+  margin-bottom: 30vh;
+}
+.wrapper {
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 40vh;
+  background: #ffffff;
+  box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+.profile-img {
+  margin-top: 92px;
+}
+.data-container {
+  display: flex;
+}
+.data-group {
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  text-align: center;
+  margin-top: 24px;
+  margin-left: 23px;
+  margin-right: 23px;
+}
+.data-group .text {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 10px;
+  /* identical to box height */
+  letter-spacing: 1.5px;
+  color: #6b7082;
+}
+
+.data-group .number {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  color: #2e3349;
+}
+
+.personal-info {
+  font-style: normal;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  margin-top: 24px;
+}
+.personal-info .name {
+  font-weight: bold;
+  color: #2e3349;
+}
+.personal-info .age {
+  font-weight: normal;
+  color: #6b7082;
+}
+.city {
+  font-family: Kumbh Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  /* identical to box height */
+
+  text-align: center;
+  margin-top: 8px;
+  color: #6b7082;
+}
+.line {
+  background: #e8e9ec;
+  height: 1px;
+  width: 350px;
+  left: 0px;
+  top: 285px;
+  border-radius: 0px;
+  margin-top: 24px;
+}

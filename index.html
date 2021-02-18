@@ -2,57 +2,49 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
-    <link rel="stylesheet" href="styles.css" />
+    <title>Profile card</title>
+    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
-    <title>Profile card</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </head>
   <body>
-    <main>
-      <div class="profile">    
-          <div id="profileOval">
-            <div id="rect">
-              <div id="imgOval"></div>
-            <div class="data">
-              <div id="likes">
-                <span class="text">Likes</span>
-                <span class="number">803K</span>
-              </div>
-              <div id="photos">
-                <span class="text">Photos</span>
-                <span class="number">1.4K</span>
-              </div>
-              <div id="followers">
-                <span class="text">Followers</span>
-                <span class="number">80K</span>
-              </div>
+    <div class="profile-container">
+      <div class="wrapper">
+        <div class="profile">
+          <div class="profile-img">
+            <img src="./images/image-victor.jpg" alt="profile-img" />
+          </div>
+          <div class="personal-info">
+            <span class="name">Victor Crest</span>
+            <span class="age">26</span>
+          </div>
+          <div class="city">
+            <p>London</p>
+          </div>
+          <div class="line"></div>
+          <div class="data-container">
+            <div class="data-group">
+              <span class="number">80K</span>
+              <span class="text">Followers</span>
             </div>
-            <div id="line"></div>
-            <div id="city">London</div>
-            <div id="profileContent">
-              <span id="name">Victor Crest</span>
-              <span id="age">26</span>
+            <div class="data-group">
+              <span class="number">803K</span>
+              <span class="text">Likes</span>
             </div>
+            <div class="data-group">
+              <span class="number">1.4K</span>
+              <span class="text">Photos</span>
             </div>
           </div>
+
+          <div class="profile-bg"></div>
         </div>
       </div>
-    </main>
-    <div id="ovalFirst"></div>
-    <div id="ovalSecond"></div>
+    </div>
   </body>
 </html>
