@@ -1,103 +1,26 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-}
 body {
-  font-family: "Kumbh Sans", sans-serif;
-  background: #19a1ae;
+  background-color: #19a1ae;
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
-
-/* Profile */
-.profile-container {
-  height: auto;
-}
-.wrapper {
-  max-width: 350px;
-  margin: 0 auto;
-}
-
-.profile {
-  height: 40vh;
-  background: #ffffff;
-  box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+main {
+  width: 350px;
+  height: 374px;
+  background-color: white;
   border-radius: 15px;
-  margin: 0 auto;
-  overflow: hidden;
-  position: relative;
 }
-.profile-header {
-  background-image: url(/images/bg-pattern-card.svg);
-  background-size: cover;
-  height: 150px;
-}
-
-.profile-img {
-  border-radius: 50%;
-  border: 5px solid white;
-  overflow: hidden;
-  margin: -50px auto 30px auto;
-}
-.profile-img img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-.profile-body {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-.profile-footer {
-  display: flex;
-  justify-content: center;
-  padding: 0 25px;
-}
-
-.data-group {
+.body {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  flex: 1;
-  height: 100px;
-}
-.data-group .text {
-  font-weight: normal;
-  font-size: 0.8rem;
-  line-height: 10px;
-  /* identical to box height */
-  letter-spacing: 1.5px;
-  color: #6b7082;
-}
 
-.data-group .number {
-  font-weight: bold;
-  font-size: 1rem;
-  line-height: 18px;
-  text-align: center;
-  color: #2e3349;
-}
-
-.personal-info {
-  font-style: normal;
-  font-size: 18px;
-  line-height: 18px;
-  text-align: center;
-}
-.personal-info .name {
-  font-weight: bold;
-  color: #2e3349;
-}
-.personal-info .age {
-  font-weight: normal;
-  color: #6b7082;
+  margin-top: -58px;
 }
 .city {
+  margin-bottom: 28px;
   font-family: Kumbh Sans;
   font-style: normal;
   font-weight: normal;
@@ -106,30 +29,89 @@ body {
   /* identical to box height */
 
   text-align: center;
-  margin-top: 10px;
+
+  color: #6b7082;
+}
+.header img {
+  border-radius: 15px 15px 0px 0px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nameNage {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  box-sizing: border-box;
+}
+.name {
+  margin-right: 8.5px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  color: #2e3349;
+}
+.age {
+  font-family: Kumbh Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+
   color: #6b7082;
 }
 .line {
-  background: #e8e9ec;
   height: 1px;
   width: 350px;
-  left: 0px;
 
-  border-radius: 0px;
-  margin-top: 24px;
+  background: #e8e9ec;
 }
-/* Circles */
+.data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.digit {
+  font-family: Kumbh Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
 
-.circles .c1,
-.circles .c2 {
-  position: absolute;
+  color: #2e3349;
 }
+.text {
+  margin-top: 10px;
+  font-family: Kumbh Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 10px;
+  /* identical to box height */
 
-.circles .c1 {
-  top: -300px;
-  left: -175px;
+  text-align: center;
+  letter-spacing: 1.5px;
+
+  color: #6b7082;
 }
-.circles .c2 {
-  bottom: -300px;
-  right: -175px;
+.body img {
+  margin-bottom: 24px;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  border: white solid 5px;
 }
